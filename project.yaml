@@ -12,8 +12,8 @@ basic:
         - for-people-in-colorado/involuntary-treatment/involuntary-mental-health-treatment
         - for-people-in-colorado/involuntary-treatment/substance-use-commitment
     monitoring:
-        days: {  }
-        type: ''
+        days: [Mon]
+        type: weekly
         schedule_time: '12:30 AM'
         schedule_time_zone: Europe/London
         compare_with: last-production
