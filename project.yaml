@@ -4,6 +4,10 @@ basic:
         production: 'https://bha.colorado.gov/'
         staging: ''
         development: ''
+    basicAuth:
+        production: { user: '', password: '' }
+        staging: { user: '', password: '' }
+        development: { user: '', password: '' }
     breakpoints:
         - 1440
     pages:
@@ -33,6 +37,7 @@ advanced:
     sensitivity: 15
     night_mode: false
     retina_images: false
+    single_ip: true
     login:
         type: none
         click_element: false
@@ -50,5 +55,3 @@ advanced:
         workers_production_delay: 40
         workers_nonproduction_delay: 0
     stabilize: true
-proxy: true
-type: single-site
